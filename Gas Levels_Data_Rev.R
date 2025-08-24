@@ -254,9 +254,7 @@ ggplot(df_monthly_turns, aes(x = month, fill = element_name)) +
   ylab("Number of Turns") +
   scale_x_date(date_labels = "%b %Y", date_breaks = "1 month") +
   
-# 
-    
-    
+#
     ggplot(df_monthly_turns, aes(x = month, fill = element_name)) +
     geom_histogram(
       color = "black",
